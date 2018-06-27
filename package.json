@@ -8,6 +8,11 @@
   "engines": {
     "node": ">=0.8.0"
   },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
   "maintainers": [
     "Alex Lam <alexlamsl@gmail.com>",
     "Mihai Bazon <mihai.bazon@gmail.com> (http://lisperator.net/)"
@@ -29,6 +34,7 @@
   },
   "devDependencies": {
     "acorn": "~5.4.1",
+    "brfs": "^2.0.0",
     "mocha": "~3.5.1",
     "semver": "~5.5.0"
   },
